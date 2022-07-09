@@ -17,7 +17,7 @@ const Banner = () => {
                 <Button variant='ghost' size='sm' onClick={() => {navigate('/education')}}>
                     Education
                 </Button>
-                <Button variant='ghost' size='sm' onClick={() => {navigate('/work')}}>
+                <Button variant='ghost' size='sm' onClick={() => {navigate('/experience')}}>
                     Experience
                 </Button>
                 <Button variant='ghost' size='sm' onClick={() => {navigate('/project')}}>
