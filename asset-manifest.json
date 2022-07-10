@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/jamesstockton.com/static/js/main.77196745.js",
-    "index.html": "/jamesstockton.com/index.html",
-    "main.77196745.js.map": "/jamesstockton.com/static/js/main.77196745.js.map"
+    "main.js": "/static/js/main.77196745.js",
+    "index.html": "/index.html",
+    "main.77196745.js.map": "/static/js/main.77196745.js.map"
   },
   "entrypoints": [
     "static/js/main.77196745.js"
