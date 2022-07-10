@@ -19,7 +19,7 @@ root.render(
       <Route path="project" element={<ProjectHome />} />
       <Route path="project/:article" element={<Project />} />
       <Route path="contact" element={<Home />} />
-      <Route path="*" element={<Navigate to="home" />} />
+      {/*<Route path="*" element={<Navigate to="home" />} />*/}
     </Routes>
   </BrowserRouter>
 </ChakraProvider>
