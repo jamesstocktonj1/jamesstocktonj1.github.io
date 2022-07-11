@@ -1,8 +1,8 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
+  "homepage": "https://jamesstockton.com/",
   "private": false,
-  "homepage": "jamesstockton.com",
   "dependencies": {
     "@chakra-ui/react": "^2.2.1",
     "@emotion/react": "^11.9.3",
@@ -24,8 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build-remote": ""
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

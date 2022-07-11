@@ -1,19 +1,26 @@
-import { Container, Flex } from '@chakra-ui/react';
-import React from 'react';
-import Banner from '../shared/Banner/Banner';
+import { Container, VStack } from '@chakra-ui/react';
+import React, { useEffect } from 'react';
 import LargeBanner from '../shared/Banner/LargeBanner';
-import GithubCard from '../shared/GithubCard/GithubCard';
-import ProjectCard from '../shared/ProjectCard/ProjectCard';
 import Section from '../shared/Section/Section';
+import Introduction from './content/Introduction';
+import University from './content/University';
+import NDC from './content/NDC';
 
 
 
 const Home = () => {
 
+    useEffect(() => {
+        document.title = 'James Stockton';
+    }, []);
+
     return (
-        <Flex w='100%'>
+        <VStack>
             <LargeBanner />
-        </Flex>
+            <Introduction />
+            <University />
+            <NDC />
+        </VStack>
     );
 }
 

@@ -11,22 +11,22 @@ const Banner = () => {
     return (
         <Container>
             <Stack direction='row' spacing={4} align='center'>
-                <Button variant='ghost' size='sm' onClick={() => {navigate('/react-portfolio/home')}}>
+                <Button variant='ghost' size='sm' onClick={() => {navigate('/home')}}>
                     Home
                 </Button>
-                <Button variant='ghost' size='sm' onClick={() => {navigate('/react-portfolio/education')}}>
+                <Button variant='ghost' size='sm' onClick={() => {navigate('/education')}}>
                     Education
                 </Button>
-                <Button variant='ghost' size='sm' onClick={() => {navigate('/react-portfolio/experience')}}>
+                <Button variant='ghost' size='sm' onClick={() => {navigate('/experience')}}>
                     Experience
                 </Button>
-                <Button variant='ghost' size='sm' onClick={() => {navigate('/react-portfolio/project')}}>
+                <Button variant='ghost' size='sm' onClick={() => {navigate('/project')}}>
                     Projects
                 </Button>
-                <Button variant='ghost' size='sm' onClick={() => {navigate('/react-portfolio/music')}}>
+                <Button variant='ghost' size='sm' onClick={() => {navigate('/music')}}>
                     Music
                 </Button>
-                <Button variant='ghost' size='sm' onClick={() => {navigate('/react-portfolio/contact')}}>
+                <Button variant='ghost' size='sm' onClick={() => {navigate('/contact')}}>
                     Contact
                 </Button>
             </Stack>
