@@ -1,11 +1,12 @@
-import { Container, HStack, Box, Heading, Text, Image } from "@chakra-ui/react";
+import { HStack, Box, Heading, Text, Image } from "@chakra-ui/react";
 import React from "react";
+import CardContainer from "../../shared/CardContainer/CardContainer";
 
 
 
 const Introduction = () => {
     return (
-        <Container maxW='container.lg' bg='gray.100'>
+        <CardContainer>
             <HStack spacing='auto' align='center'>
                 <Box maxW='container.sm' p={2}>
                     <Heading fontSize='xl'>
@@ -19,7 +20,7 @@ const Introduction = () => {
                     <Image borderRadius='full' boxSize='125px' objectFit='cover' src='/img/profilePic.jpg'/>
                 </Box>
             </HStack>
-        </Container>
+        </CardContainer>
     );
 }
 

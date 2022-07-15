@@ -1,15 +1,13 @@
-import { Container, HStack, Box, Heading, Text } from "@chakra-ui/react";
+import { HStack, Box, Heading, Text } from "@chakra-ui/react";
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import CardContainer from "../../shared/CardContainer/CardContainer";
 
 
 
 const University = () => {
 
-    const navigate = useNavigate();
-
     return (
-        <Container maxW='container.lg' bg='gray.100' onClick={() => {navigate('/education')}}>
+        <CardContainer link='/education'>
             <HStack spacing='auto' align='baseline'>
                 <Box p={2}>
                     <Heading fontSize='xl'>
@@ -31,7 +29,7 @@ const University = () => {
                     </Text>
                 </Box>
             </HStack>
-        </Container>
+        </CardContainer>
     );
 }
 

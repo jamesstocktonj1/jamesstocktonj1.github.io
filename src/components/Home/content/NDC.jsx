@@ -1,12 +1,13 @@
-import { Container, HStack, Box, Heading, Text, Image } from "@chakra-ui/react";
+import { HStack, Box, Heading, Text, Image } from "@chakra-ui/react";
 import React from "react";
+import CardContainer from "../../shared/CardContainer/CardContainer";
 
 
 
 const NDC = () => {
 
     return (
-        <Container maxW='container.lg' bg='gray.100'>
+        <CardContainer>
             <HStack spacing='auto' align='center'>
                 <Box p={2}>
                     <Heading fontSize='xl'>
@@ -25,7 +26,7 @@ const NDC = () => {
                     <Image maxH='150px' objectFit='cover' src='/img/NDC-Nordson-logo.jpg'/>
                 </Box>
             </HStack>
-        </Container>
+        </CardContainer>
     );
 }
 
