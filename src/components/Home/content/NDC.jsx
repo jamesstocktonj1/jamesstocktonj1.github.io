@@ -17,7 +17,7 @@ const NDC = () => {
                         July - September 2020
                     </Text>
                     <Text fontSize='lg' maxW='2xl' mt={2}>
-                        - Reviewed Bill of Materials (BOM) chekcing for hazardous substances (RoHS compliance) and obsolescence management. <p />
+                        - Reviewed Bill of Materials (BOM) checking for hazardous substances (RoHS compliance) and obsolescence management. <p />
                         - Performed testing and problem solving such as identifying a screen which didn't function at low temperatures.  <p />
                         - Designed and prototyped an input isolation circuit in Altium which was included in the final product design.
                     </Text>
